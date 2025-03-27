@@ -1,3 +1,20 @@
-# location-discovery-service
-Service to fetch locations, generate h3 indexes and so on.
-Refer to H3 to understand more: https://h3geo.org/docs/
+#Table of Contents
+
+1.Overview
+
+2.Features
+
+3.Architecture Diagram
+
+4.Technologies Used
+
+5.Setup and Installation
+
+6.Usage
+
+7.API Endpoints / RSocket Interactions
+
+8.Examples
+
+9.Roadmap
+
