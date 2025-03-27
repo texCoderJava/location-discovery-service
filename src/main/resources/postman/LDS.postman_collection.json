@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "d4701b35-d0fd-47f1-9613-37296d9a0e3f",
+		"name": "LDS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get neighbours distances with sort",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"radius\": 15,\r\n    \"resolution\": 8,\r\n    \"location\": {\r\n        \"latitude\": \"13.486406\",\r\n        \"longitude\": \"77.619198\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9082/lds/h3/neighbours/distance/sort",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9082",
+					"path": [
+						"lds",
+						"h3",
+						"neighbours",
+						"distance",
+						"sort"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,21 @@
+server:
+  port: 9082
+  shutdown: graceful
+
+location:
+  ranges:
+    latrange: 11.5::18.5
+    longrange: 74::78.5
+  threshold:
+    distance: 2000.0
+
+h3:
+  default:
+    resolution: 9
+
+spring:
+  webflux:
+    base-path: /lds
+  rsocket:
+    server:
+      port: 9085
