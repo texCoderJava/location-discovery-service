@@ -1,15 +1,15 @@
 # Table of Contents
 
-1.Overview
+## Overview
 
-2.Features
+## Features
 
-3.Architecture Diagram
+## Architecture Diagram
 
-4.Technologies Used
+## Technologies Used
 
 
-##Overview
+# Overview
 
 This service provides:
 
@@ -21,7 +21,7 @@ Distance calculations between coordinates using the Haversine formula.
 
 A reactive communication approach via RSocket for real-time data streaming and request-response patterns.
 
-##Features
+# Features
 
 Location Fetching: Retrieve geographic location data from your data source or external APIs.
 
